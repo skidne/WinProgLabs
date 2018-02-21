@@ -132,6 +132,8 @@ In this laboratory work we learnt:
 
 1. [StackOverflow](https://stackoverflow.com/)
 
+1. [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/ff818516(v=vs.85).aspx)
+
 
 
 [minwin]: https://user-images.githubusercontent.com/22482507/36475238-b719db1e-1702-11e8-9d97-38c7f38799bc.PNG "Minimum size"
