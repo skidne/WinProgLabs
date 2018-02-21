@@ -48,6 +48,8 @@ move window to a random location on display's working space `(1 pt)`
 
 ## Implementation
 
+- [Visual Studio IDE](https://www.visualstudio.com/) used for this project
+
 - [Chosen PSG](https://www.freebsd.org/cgi/man.cgi?query=style&sektion=9&manpath=FreeBSD+5.0-current) -
 because it's very similar to my own coding style
 
