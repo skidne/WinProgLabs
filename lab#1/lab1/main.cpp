@@ -16,8 +16,6 @@ char		txtChosen[100] = "Your Favorite Character:  Choose a character";
 const char	txtTitle[] = "Rick and Morty: Favorite Character Poll";
 HINSTANCE	hInst;
 
-
-
 int WINAPI WinMain(HINSTANCE hThisInstance, HINSTANCE hPrevInstance, LPSTR lpszArgument, int nCmdShow) {
 	HWND		hwnd;
 	MSG			messages;
