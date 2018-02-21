@@ -5,7 +5,7 @@
 #pragma warning(disable:4996)
 
 /* PlaySound unresolved symbol (w/o linker solved) */
-#pragma comment( lib, "Winmm.lib" )
+#pragma comment(lib, "Winmm.lib")
 
 #define ID_BTN_RICK 100
 #define ID_BTN_MORTY 101
