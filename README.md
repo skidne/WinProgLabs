@@ -1,5 +1,5 @@
 # WinProgLabs
-Laboratory Works for Event-Driven Programming course
+Laboratory Works for the Event-Driven Programming course
 
 ---
 
