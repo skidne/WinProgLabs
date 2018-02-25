@@ -102,7 +102,7 @@ because it's very similar to my own coding style
        
        ![close][close]
        
-       - `Minimize`/`Maximize` button click also triggers a dialog box (pressing `Yes` in both cases does nothing)
+       - `Minimize`/`Maximize` button click also triggers a dialog box (pressing `Ok` in both cases does nothing)
        
        ![min][minimize]
        ![max][maximize]
@@ -123,6 +123,19 @@ In this laboratory work we learnt:
 - To use custom styles on different elements
 
 - To make elements interact with other elements
+
+
+----
+
+#### Total Points
+
+- `6 p` - __Objectives with Points__ implemented
+
+- `1 p` - early submission
+
+- `3 p` - starter pack
+
+   + __Total__ `10 p` 
        
   
   
