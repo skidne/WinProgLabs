@@ -1,6 +1,12 @@
 #include <windows.h>
 #include <stdlib.h>
 
+/* strcpy warning - _CRT_SECURE_NO_WARNINGS - disable */
+#pragma warning(disable:4996)
+
+/* PlaySound unresolved symbol (w/o linker solved) */
+#pragma comment( lib, "Winmm.lib" )
+
 #define ID_BTN_RICK 100
 #define ID_BTN_MORTY 101
 #define ID_BTN_POOP 102
@@ -15,8 +21,6 @@ char		szClassName[] = "VSWindowsApp";
 char		txtChosen[100] = "Your Favorite Character:  Choose a character";
 const char	txtTitle[] = "Rick and Morty: Favorite Character Poll";
 HINSTANCE	hInst;
-
-
 
 int WINAPI WinMain(HINSTANCE hThisInstance, HINSTANCE hPrevInstance, LPSTR lpszArgument, int nCmdShow) {
 	HWND		hwnd;
