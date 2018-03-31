@@ -55,7 +55,7 @@ namespace lab3
 		private void Canvas_MouseMove(object sender, MouseEventArgs e)
 		{
 			endp[1] = e.Location;
-			if (drawing && obj == Obj.pen)
+			if (drawing && (obj == Obj.pen || obj == Obj.eraser))
 			{
 				gf.DrawLine(p, endp[0], endp[1]);
 				endp[0] = endp[1];
