@@ -71,6 +71,28 @@ _Implemented in C#_
    + It has adjustable width (as the rest of the primites have) `(2 pt)`
    
 
+## SHOW OFF TIME
+
+- Made only with the __Pen__ tool
+
+   ![pen](https://user-images.githubusercontent.com/22482507/38168163-b4febcfa-354d-11e8-84e8-1fc2ccdfd750.PNG)
+   
+- Made only with the __Line__ tool
+
+   ![line](https://user-images.githubusercontent.com/22482507/38168166-bef522ee-354d-11e8-9552-dc3254f51054.PNG)
+   
+- Made only with the __Rectangle__ tool (simple fill and gradient used)
+
+   ![rect](https://user-images.githubusercontent.com/22482507/38168170-c3c7dfb4-354d-11e8-93fc-402bb695b6e2.PNG)
+
+- Made only with the __Circle__ tool (unfilled, filled and gradient)
+
+   ![circle](https://user-images.githubusercontent.com/22482507/38168172-c581103c-354d-11e8-8a84-2f93c9c157d6.PNG)
+   
+- Made with __Image__ and __Pen__ tools
+
+   ![img](https://user-images.githubusercontent.com/22482507/38168173-c7524228-354d-11e8-8b7e-40539aacb4f1.PNG)
+       
        
 ## Conclusions
 
