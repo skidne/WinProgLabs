@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\skdn\Desktop\UTM\Anul 2, sem. 2\WinProgLabs\lab2\lab2\includes;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\skdn\Desktop\UTM\Anul 2, sem. 2\WinProgLabs\lab#2\lab2\includes;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
