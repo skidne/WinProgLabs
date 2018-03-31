@@ -1,84 +1,92 @@
-# Laboratory Work No.2
+# Laboratory Work No.3
 
 
 
 ## Purpose
 
-- Advanced Form Elements
+- Basics of Working with Mouse
 
-- Child Windows
+- GDI Primitives
 
-- Basics of Working With Keyboard
+- Bezier Curve
 
 
 ## Requirements
 
 #### Mandatory Objectives
 
-- Display a dialog box on some event (ex. on clicking some button)
+- Draw few lines of different colors and weights
 
-- Add a system menu to your application with at least 3 items (add actions to that items)
+- Draw a Bezier curve
 
-- Add a scroll bar that will change any visible parameter of any other element (color of a text)
+- Draw few plane objects (ex. circle, square, pie, polygon...) of different colors, weights, filled and not
 
-- Hook keyboard input. Add 2 custom events for 2 different keyboard combinations (ex. change window background on ctrl+space)
+- Draw 2 different objects using mouse
 
 
 #### Objectives with Points
 
-- Add a listbox and attach some events when any element is accessed (clicked) `(2 pt)`
+- Draw a custom bitmap image `(1 pt)`
 
-- Add 2 scroll bars that will manage main window size or position  `(1 pt)`
+- Add a switch (button, select list...) that will change mouse ability to draw objects `(2 pt)`
 
-- Customize your application by adding an icon and using different cursor in application `(1 pt)`
+- Draw a Bezier curve using mouse `(1 pt)`
 
-- Use a scroll bar to scroll through application working space. Scroll should appear only when necessary (eg. when window width is smaller than 300px) `(1 pt)`
+- Fill an object with a gradient `(1 pt)`
+
+- Delete objects using mouse clicking `(2 pt)`
+
+- Use mouse as an eraser of:
+
+   + a fixed width `(1 pt)`
+   
+   + an adjustable width `(2 pt)`
+   
+- Zoom in and out application working area using keyboard `(2 pt)`
 
 
 
 ## Implementation
 
-- The `Click Me` button when clicked displays a __Dialog Box__:
+_Implemented in C#_
 
-   + In the __Dialog Box__ is a __ListBox__ containing 3 elements, which when clicked, display the element's text alongside `(2 pt)`
+- The __ImageBox__ in the top of the toolbar opens a __Color Picker Dialog__, where the user can choose the color they want
+
+- The application can draw the following objects `(2 pt)`:
    
-- The __Menu__ in the Main Window has 4 elements (some are nested), that each display a `MessageBox`
+   + Free lines (__Pen__ button)
+   
+   + Straight lines (__Line__ button)
+   
+   + Rectangles (__Rectangle__ button), can be unfilled, filled with a simple color and filled with a color gradient `(1 pt)`
+   
+   + Circles (__Circle__ button), same as __Rectangle__
+   
+   + Bezier curves (__Bezier__ button), only 4 points, created by mouse clicks `(1 pt)`
+   
+   + Bitmap Images (__Image__ button), uses an __Open File Dialog__ to let the user choose an image, then the image is drawn on the position specified by the user's click `(1 pt)`
+   
+- The __Eraser__ can only be used "freely" (like the __Pen__)
 
-- The upper __Scroll Bar__ changes the color of the background (from black to white)
-
-- Pressing `Alt` + `Up` maximizes the window, whereas pressing `Alt` + `Down` minimizes it
-
-- The last 2 __Scroll Bars__ take care of resizing the window (the upper - width, lower - height) `(1 pt)`
-
-- The application has 2 different custom __icons__ and a custom __cursos__ `(1 pt)`
-
+   + It has adjustable width (as the rest of the primites have) `(2 pt)`
+   
 
        
 ## Conclusions
 
 In this laboratory work we learnt:
 
-- To create **scroll bars**, **dialog boxes** and **menus**
+- To create __GDI__ primitives
 
-- To add custom __icons__ and __cursors__
+- To draw bitmaps
 
-- To handle keyboard input
-
+- To draw Bezier curves
 
 ----
 
 #### Total Points
 
-- `(4 pt)` - __Objectives with Points__ implemented 
-       
+- `(7 pt)` - __Objectives with Points__ implemented 
+
+- `(1 pt)` - Early submission
   
-  
-## References
-
-1. [Programming Windows by Charlez Petzold, 5th edition](https://www.amazon.com/exec/obidos/ISBN=157231995X)
-
-1. [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/start.html)
-
-1. [StackOverflow](https://stackoverflow.com/)
-
-1. [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/ff818516(v=vs.85).aspx)
