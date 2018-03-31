@@ -64,9 +64,11 @@ namespace lab3
 
 		private void Canvas_MouseUp(object sender, MouseEventArgs e)
 		{
-			if (fMode == FillMode.gradient)
+			if (fMode == FillMode.gradient && (obj == Obj.rect || obj == Obj.circle))
 				brush = new LinearGradientBrush(endp[0], endp[1],
 					lastCol, Color.White);
+			else if (fMode == FillMode.filled)
+				brush = new SolidBrush(lastCol);
 
 			if (imgMove)
 			{
@@ -108,7 +110,7 @@ namespace lab3
 
 			drawing = false;
 			this.Cursor = Cursors.Default;
-			p.Color = lastCol;
+			p.Color = (obj == Obj.eraser) ? Color.White : lastCol;
 		}
 
 		private void Color_Click(object sender, EventArgs e)
@@ -116,8 +118,8 @@ namespace lab3
 			if (colorDialog.ShowDialog().Equals(DialogResult.OK))
 			{
 				color.BackColor = colorDialog.Color;
-				p.Color = color.BackColor;
-				lastCol = p.Color;
+				p.Color = colorDialog.Color;
+				lastCol = colorDialog.Color;
 			}
 		}
 
@@ -172,7 +174,6 @@ namespace lab3
 					break;
 				case "Filled":
 					fMode = FillMode.filled;
-					brush = new SolidBrush(lastCol);
 					break;
 				case "Gradient filled":
 					fMode = FillMode.gradient;
