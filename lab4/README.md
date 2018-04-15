@@ -47,6 +47,10 @@ _Implemented in C#_
    
    + Their collision will trigger a Sound saying `I'M PICKLE RIIIICK`
        
+### How it looks
+
+![kek](https://user-images.githubusercontent.com/22482507/38782224-f8fad2fc-40f8-11e8-8dc6-2c99c6b01f8f.PNG)
+
        
 ## Conclusions
 
